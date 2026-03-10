@@ -1,0 +1,54 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+}
+
+.everything {
+    background-color: #d4e9e7;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.wideimage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.maintext {
+    margin-top: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+    font-size: 100pt;
+    color: white;
+}
+
+body {
+    margin-left: 30px;
+}
+body, h1 {
+    font-size: 30pt;
+}
+
+#starfish-square {
+    float: left;
+    margin-right: 30px;
+}
+
+div p {
+    font-size: 14pt;   
+}
+
+div ul {
+    font-size: 14pt;
+}
