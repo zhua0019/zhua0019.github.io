@@ -6,22 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/main.css" rel="stylesheet">
-    <div class="wideimage"></div>
-    <img id="starfish-wide" src="images/lone-starfish-wide.jpg" alt="starfish" style="width: 100%;">
-    <div class="center">Lone Starfish</div>
 </head>
-
-<!--Three buttons HERE-->
 
 <!--div to contain everything (except the wide image at the top)-->
 <div class="everything">
 
     <body>
+        <header>
+            <div class="banner">
+                <h1>
+                    Lone Starfish
+                </h1>
+                <img id="starfish-wide" src="images/lone-starfish-wide.jpg" alt="starfish">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#story">Story</a></li>
+                    <li><a href="#content">Content</a></li>
+                </ul>
+            </nav>
+        </header>
         <!--div to contain header, starfish image and wrap text around it-->
         <div class="maintext">
             <h1>Life of a Starfish</h1>
-            <!--div for only the image and the text -->
-            <div>
+            <!--div for only the image and the text-->
+            <div id="home">
                 <img id="starfish-square" src="images/lone-starfish.jpg" alt="starfish" width="300px" height="300px">
                 <p>
                     Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper
@@ -56,7 +66,8 @@
                 </p>
             </div>
             <br>
-            <div>
+            <!-- div to contain the list -->
+            <div id="Story">
                 <h1>Facts About Starfish</h1>
                 <ul>
                     <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
@@ -64,6 +75,10 @@
                     <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
                     <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                 </ul>
+            </div>
+            <br>
+            <div id="contact">
+
             </div>
         </div>
     </body>
