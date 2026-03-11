@@ -75,9 +75,9 @@ nav a {
 }
 
 /* margin 0 to remove the gap between the image and the top of the screen */
-body,
 h1 {
     font-size: 30pt;
+    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -106,4 +106,42 @@ div ul {
 .contact-box {
     border: 2px solid black;
     padding: 20px;
+}
+
+form p {
+    margin: 0;
+}
+
+form input,
+form textarea {
+    margin-bottom: 20px;
+}
+
+#yourname,
+#youremail,
+#yourmessage {
+    width: 930px;
+    height: 25px;
+}
+
+#yourmessage {
+    height: 80px;
+}
+
+#askvisit {
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+#sendbutton {
+    font-size: 8pt;
+    border: 1px solid black;
+    padding: 10px;
+    width: 52px;
+}
+
+
+footer {
+    text-align: right;
+    margin-top: 30px;
 }
