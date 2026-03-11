@@ -1,25 +1,28 @@
+/* sets font for the whole page */
 html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
 }
 
+/* banner positioning and making the text go on top of the image */
 .banner {
     position: relative;
 }
 .banner h1 {
     position: absolute;
-    top: 25%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70pt;
+    font-size: 50pt;
+    font-weight: lighter;
     color: white;
 }
 
 #starfish-wide {
-    /* margin-left: 334px; */
     display: block;
 }
 
+/* sets the background colour and squishes the page, condensing it all and creating the border effect on the sides of the screen.*/
 .everything {
     background-color: #d4e9e7;
     width: 1024px;
@@ -27,44 +30,69 @@ html {
     padding: 0;
 }
 
-.wideimage {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-/* .maintext {
-    margin-top: auto;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 0;
-} */
-
-/* .centertext {
-    position: absolute;
-   
-} */
-
 body {
-    margin-left: 30px;
+    margin-left: 50px;
     padding: 0;
+    font-size: 14pt;
 }
 
+/* nav li to make the links actual boxes that can be spaced out, */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+/* nav li {
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+    border-right: 1px solid gray;
+} */
+nav li:last-child {
+    border-right: none;
+}
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+   
+}
+
+/* margin 0 to remove the gap between the image and the top of the screen */
 body,
 h1 {
     font-size: 30pt;
     margin: 0;
     padding: 0;
 }
-
+/* float left to wrap the text around, margin right to space the text out from the image */
 #starfish-square {
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
+}
+.maintext {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
 }
 
 div p {
     font-size: 14pt;
 }
+
 
 div ul {
     font-size: 14pt;
